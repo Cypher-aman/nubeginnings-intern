@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const useStateChangeTitle = () => {
+const UseStateChangeTitle = () => {
   const [title, setTitle] = useState("Title 1");
 
   const handleChange = () => {
@@ -17,4 +17,4 @@ const useStateChangeTitle = () => {
   );
 };
 
-export default useStateChangeTitle;
+export default UseStateChangeTitle;

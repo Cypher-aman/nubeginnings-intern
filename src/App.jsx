@@ -1,4 +1,4 @@
-import Exercise from "./tutorial/useState/1-exercise";
+import Exercise from "./tutorial/useState/2-exercise";
 
 function App() {
   return (
