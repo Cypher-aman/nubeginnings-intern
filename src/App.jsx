@@ -1,7 +1,11 @@
-function App() {
-  const [count, setCount] = useState(0);
+import Exercise from "./tutorial/useState/1-exercise";
 
-  return <div></div>;
+function App() {
+  return (
+    <div className="bg-blue-50 w-screen p-10 mx-auto h-screen flex items-center gap-5 flex-col">
+      <Exercise />
+    </div>
+  );
 }
 
 export default App;
